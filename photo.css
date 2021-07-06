@@ -1,0 +1,46 @@
+*
+{
+    margin: 5px;
+    padding:0px;
+}
+
+body{
+   
+    margin-left: 60px;
+}
+.design h1{
+    font-family: roboto;
+    color:black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-top: 20px;
+}
+.design p{
+    font-family: 'Times New Roman';
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 18px;
+    
+}
+
+.box{
+    display: block;
+    float: left;
+margin-left: 20px;
+
+
+}
+img{
+    padding: 5px;
+    border-radius: 5px;
+    width: 350px;
+    height: 250px;
+    
+    
+}
+img:hover{
+    transform: scale(1.2,1.2);
+    transition: .4s;
+}

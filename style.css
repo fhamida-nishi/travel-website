@@ -1,0 +1,106 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(sajek2.jpg);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height:500px;
+    width: 350px;
+    box-shadow: 0 0 40px 20px rgba(0,0,0,0.26);
+}
+.inner-box{
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+.front{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(sajek4.jpg);
+    padding: 25px;
+    box-sizing: border-box;
+    
+    
+}
+
+.card h2{
+   font-weight: normal; 
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+
+.email-box{
+    width:66%;
+    height: 25px;
+    border: 1px solid rgb(97, 84, 84);
+
+    margin: 6px 0;
+    padding: 0 8px;
+    text-align: center;
+    color:black;
+    outline: none;
+
+}
+.pass-box{
+    height: 25px;
+}
+::placeholder{
+    size: 40px;
+    color:black;
+    text-align: center;
+}
+.btn{
+position: relative;
+    right: -95px;
+    top: 8px;
+    color: black;
+    width: 39%;
+    height: 26px;
+    border-radius: 20px;
+}
+.btn:hover{
+transition: 0.5s;
+background-color: olive;
+cursor: pointer;
+}
+.sub-btn{
+    position: absolute;
+    top: 250px;
+    right:112px;
+    width: 35%;
+    height: 25px;
+    border-radius: 20px;
+    color: black;
+}
+.sub-btn:hover{
+transition:all 0.5 ease-in;
+background-color: olive;
+cursor:pointer;
+}
+span{
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.front a{
+    color:black;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
